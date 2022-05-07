@@ -251,6 +251,36 @@ footer .space { color:#bdd4de; }
 		font-size: 24px;
 	}
 	
+	/*** desktop nav styles***/
+
+	#mobilenav {
+		display:none;
+	}
+
+	#mainnav {
+		box-sizing:border-box;
+		position:static;
+		width:100%;
+		margin-bottom:20px;
+		border-top: none;
+		border-left: 1px solid #ca6a0c;
+	}
+
+	#mainnav ul{
+		display: flex;
+	}
+	#mainnav ul li {
+		flex:1;
+	}
+
+	#mainnav ul li a {
+		width:100%;
+		box-sizing:border-box;
+		padding:0;
+		text-align: center;
+		border-bottom:none;
+		border-right:1px solid #ca6a0c;
+	}
 }
 
 @media only screen and (min-width: 960px) {
