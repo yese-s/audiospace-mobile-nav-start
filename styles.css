@@ -9,6 +9,9 @@ h1, h2, h3, p, ul, ol {
 	padding: 0;
 }
 
+nal ul, nav ol {
+	list-style-type:none;
+}
 /********* End CSS Reset *********/
 
 body {
